@@ -2,6 +2,7 @@
 public abstract class Vara {
 	private String namn;
 	private double inPris;
+	@SuppressWarnings("unused")
 	private String varunr;
 	
 	public void setNamn(String namn) {
